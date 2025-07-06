@@ -46,11 +46,11 @@ soundmind_fullstack/
 ## 🛠️ Setup Guide
 
 ### 1️⃣ Clone the Repo
-
-```bash
 git clone https://github.com/yourusername/soundmind_fullstack.git
 cd soundmind_fullstack
-2️⃣ Backend (FastAPI)
+
+
+###2️⃣ Backend (FastAPI)
 cd backend
 python -m venv venv
 venv\Scripts\activate    # or source venv/bin/activate for Linux/Mac
@@ -67,7 +67,7 @@ uvicorn main:app --reload
 
 This will start FastAPI at http://localhost:8000
 
-3️⃣ Frontend (React + Vite)
+###3️⃣ Frontend (React + Vite)
 cd ../frontend
 npm install
 npm run dev
@@ -132,6 +132,10 @@ CORS Policy Blocked	Ensure FastAPI allows http://localhost:5173 in allow_origins
 
 🧠 Credits & Tools
 Spotify Developer Portal
+
+
+![image](https://github.com/user-attachments/assets/ee358500-79cc-41cb-aebf-a85b1b67a7ac)
+
 
 FastAPI
 
