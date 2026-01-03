@@ -52,8 +52,8 @@ function App() {
       {mood && (
         <div className="text-center">
           <h2 className="text-2xl font-semibold">Track: {mood.name} by {mood.artist}</h2>
-          <p>🎵Song Name : {mood.name}</p>
-          <p>💃Artist Name : {mood.artist}</p>
+          <p>🎵 Song Name : {mood.name}</p>
+          <p>💃 Artist Name : {mood.artist}</p>
           <p>🎵 Energy: {mood.energy}</p>
           <p>💃 Danceability: {mood.danceability}</p>
           <p>🎚️ Valence: {mood.valence}</p>
